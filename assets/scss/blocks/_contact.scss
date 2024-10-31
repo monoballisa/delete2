@@ -1,0 +1,97 @@
+.contact {
+    .contact_item {
+        margin-top: 80px;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        text-align: center;
+
+        .contact_cards {
+            text-align: end;
+
+            .contact_title {
+                padding-top: 32px;
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 30px;
+                font-weight: 700;
+            }
+
+            .contact_tex {
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 20px;
+                font-weight: 600;
+                padding-top: 25px;
+            }
+
+            .tex {
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                padding-top: 10px;
+            }
+        }
+
+        .contact_line {
+            width: 0px;
+            height: 336px;
+            border: 1px solid rgb(213, 213, 213);
+        }
+
+        .contact_cardd {
+            text-align: center;
+            padding-top: 32px;
+
+            .contact_text {
+                padding-top: 26px;
+                padding-bottom: 49px;
+                width: 543px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            .contact_btn {
+                .contact_botton {
+                    width: 60px;
+                    height: 60px;
+                    background-color: $light_blue_white;
+                    border-radius: 36px;
+                    border: none;
+                }
+            }
+        }
+
+        .contact_card {
+            text-align: start;
+
+            .contact_title {
+                padding-top: 32px;
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 30px;
+                font-weight: 700;
+                padding-bottom: 24px;
+            }
+
+            .tex {
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                padding-bottom: 15px;
+
+                a {
+                    color: $grey;
+                    font-family: $open_sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+}

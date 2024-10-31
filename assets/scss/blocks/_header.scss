@@ -1,0 +1,109 @@
+.header {
+    width: 100%;
+    height: 204px;
+    display: flex;
+    align-items: center;
+
+    .header_wrapper {
+        display: flex;
+        gap: 150px;
+
+        .header_list {
+            margin-top: 20px;
+            display: flex;
+            gap: 40px;
+
+            li {
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            a {
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            select {
+                border: none;
+
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+
+        .header_but {
+            display: flex;
+            gap: 30px;
+
+            .inputs {
+                width: 376px;
+                height: 66px;
+                position: relative;
+
+                .header_input {
+                    background-color: $grey_a;
+                    border: none;
+                    border-radius: 36px;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .header_botton {
+                    width: 56px;
+                    height: 56px;
+                    background-color: $light_green;
+                    border-radius: 36px;
+                    border: none;
+                    position: absolute;
+                    right: 5px;
+                    top: 5px;
+                }
+            }
+
+            .botton {
+                position: relative;
+                width: 56px;
+                height: 56px;
+
+                .header_btn {
+                    width: 100%;
+                    height: 100%;
+                    background-color: $black_1;
+                    border-radius: 36px;
+                    border: none;
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                }
+
+                .header_btt {
+                    width: 159px;
+                    height: 66px;
+                    border-radius: 36px;
+                    color: $black_1;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: $roboto;
+                    background-color: $white;
+                    padding-left: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1550px) {
+    .header{
+        .header_wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

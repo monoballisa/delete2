@@ -1,0 +1,18 @@
+.footer {
+    .footer_line {
+        margin-top: 101px;
+        margin-bottom: 17px;
+        width: 1596px;
+        height: 0;
+        border: 1px solid rgb(213, 213, 213);
+    }
+
+    .footer_title {
+        text-align: center;
+        color: $grey;
+        font-family: $open_sans;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+}

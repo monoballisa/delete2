@@ -1,0 +1,38 @@
+.section {
+    width: auto;
+    height: 898px;
+    background: url(../images/section_bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 247px;
+
+    .section_wrapper {
+        .section_suptitle {
+            color: $light_green;
+            font-size: 36px;
+            font-weight: 400;
+            font-family: $yellowtail;
+            padding-bottom: 8px;
+        }
+
+        .section_title {
+            width: 530px;
+            color: $black_1;
+            font-family: $roboto;
+            font-size: 70px;
+            font-weight: 800;
+            padding-bottom: 23px;
+        }
+
+        .btn {
+            color: $black_1;
+            font-family: $roboto;
+            font-size: 20px;
+            font-weight: 700;
+            background: $yellow;
+            width: 220px;
+            height: 79px;
+            border-radius: 16px;
+            border: none;
+        }
+    }
+}

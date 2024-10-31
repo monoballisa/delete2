@@ -1,0 +1,59 @@
+.organink {
+    .organick_wrapper {
+        display: flex;
+
+        .organick_bg {
+            width: 1250px;
+            height: 1000px;
+        }
+
+        .organick_item {
+            position: relative;
+            right: 130px;
+            top: 130px;
+            width: 358px;
+            height: 723px;
+            border-radius: 30px;
+            background-color: $white;
+
+            .organick_text {
+                color: $light_green;
+                font-family: $yellowtail;
+                font-size: 36px;
+                font-weight: 400;
+                padding-bottom: 8px;
+                padding-top: 78px;
+                padding-left: 89px;
+            }
+
+            .organick_title {
+                width: 600px;
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 50px;
+                font-weight: 800;
+                padding-left: 89px;
+                padding-bottom: 35px;
+            }
+
+            .text {
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 25px;
+                font-weight: 500;
+                padding-bottom: 7px;
+                padding-left: 89px;
+            }
+
+            .suptitle {
+                width: 628px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                padding-bottom: 35px;
+                padding-left: 89px;
+            }
+        }
+    }
+}

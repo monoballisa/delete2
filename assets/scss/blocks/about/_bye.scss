@@ -1,0 +1,101 @@
+.bye {
+    width: 100%;
+    height: 1429px;
+    background-color: $light_grey;
+
+    .bye_wrapper {
+        display: flex;
+        gap: 51px;
+        padding-top: 276px;
+        justify-content: center;
+
+        .bye_item_1 {
+            .bye_tex {
+                color: $light_green;
+                font-family: $yellowtail;
+                font-size: 36px;
+                font-weight: 400;
+                margin-bottom: 6px;
+            }
+
+            .bye_title {
+                width: 524px;
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 50px;
+                font-weight: 800;
+                margin-bottom: 25px;
+            }
+
+            .bye_suptitle {
+                width: 671px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 36px;
+            }
+
+            .bye_bottons {
+                width: 339px;
+                height: 81px;
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 49px;
+                margin-bottom: 12px;
+                border: none;
+            }
+
+            .bye_p {
+                width: 444px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                margin-left: 60px;
+                margin-bottom: 24px;
+            }
+        }
+
+        .bye_img {
+            width: 600px;
+            height: 510px;
+            border-radius: 50px;
+        }
+    }
+
+    .bye_item_2 {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        .bye_card {
+            width: 257px;
+            height: 335px;
+            border-radius: 30px;
+            background-color: $white;
+            text-align: center;
+            padding-top: 50px;
+            margin-top: 91px;
+
+            .bye_icon_text {
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 25px;
+                font-weight: 800;
+                padding-top: 15px;
+                padding-bottom: 12px;
+            }
+
+            .bye_icon_suptitle {
+                width: 184px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                padding-left: 50px;
+            }
+        }
+    }
+}

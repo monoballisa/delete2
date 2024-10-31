@@ -1,0 +1,49 @@
+.spicy {
+    width: 100%;
+    height: 892px;
+    background-color: $black_1;
+    margin-bottom: 120px;
+
+    .spicy_tex {
+        padding-top: 188px;
+        margin-top: 202px;
+        padding-bottom: 8px;
+        color: $light_green;
+        font-family: $yellowtail;
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .spicy_title {
+        padding-bottom: 33px;
+        color: $white;
+        font-family: $roboto;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .spicy_item {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        .spicy_card {
+            .spicy_img {
+                width: 362px;
+                height: 362px;
+                object-fit: cover;
+                border-radius: 36px;
+            }
+
+            .spicy_suptitle {
+                color: $white;
+                font-family: $roboto;
+                font-size: 25px;
+                font-weight: 500;
+                padding-top: 10px;
+                text-align: center;
+            }
+        }
+    }
+}

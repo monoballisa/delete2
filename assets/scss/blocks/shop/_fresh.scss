@@ -1,0 +1,60 @@
+.vegetables {
+    .vegetables_main {
+        .vegetables_item {
+            margin-bottom: 100px;
+            margin-top: 40px;
+            display: flex;
+            gap: 30px;
+
+            .vegetables_card {
+                width: 335px;
+                height: 483px;
+                background-color: $light_grey;
+                border-radius: 30px;
+                padding-top: 29px;
+
+                .vegetables_btn {
+                    margin-left: 30px;
+                    width: 96px;
+                    height: 31px;
+                    color: $white;
+                    font-family: $open_sans;
+                    font-size: 15px;
+                    font-weight: 600;
+                    background-color: $black_1;
+                    border: none;
+                    border-radius: 8px;
+                    margin-bottom: 10px;
+                }
+
+                .vegetables_1 {
+                    width: 300px;
+                    height: 290px;
+                }
+
+                .vegetables_tex {
+                    padding-left: 30px;
+                    color: $black_1;
+                    font-family: $roboto;
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-top: 4px;
+                }
+
+                .star {
+                    display: flex;
+                    gap: 81px;
+
+                    .vegetables_money {
+                        padding-left: 30px;
+                        padding-top: 13px;
+                        color: $black_1;
+                        font-family: $open_sans;
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}

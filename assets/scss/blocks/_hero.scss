@@ -1,0 +1,60 @@
+.hero {
+    .hero_wrapper {
+        display: flex;
+        gap: 50px;
+
+        .hero_card_1 {
+            width: 850px;
+            height: 376px;
+            border-radius: 45px;
+            background: url(../images/hero_bg_1.png)no-repeat center;
+            background-size: cover;
+            padding-top: 115px;
+            margin-top: 145px;
+            padding-left: 150px;
+
+            .hero_suptitle {
+                color: $white;
+                font-family: $yellowtail;
+                font-size: 36px;
+                font-weight: 400;
+                padding-bottom: 5px;
+            }
+
+            .hero_title {
+                width: 277.63px;
+                color: $white;
+                font-family: $roboto;
+                font-size: 40px;
+                font-weight: 800;
+            }
+        }
+
+        .hero_card_2{
+            width: 850px;
+            height: 376px;
+            border-radius: 45px;
+            background: url(../images/hero_bg_2.png)no-repeat center;
+            background-size: cover;
+            padding-top: 115px;
+            margin-top: 145px;
+            padding-left: 150px;
+
+            .hero_suptitle {
+                color: $light_green;
+                font-family: $yellowtail;
+                font-size: 36px;
+                font-weight: 400;
+                padding-bottom: 5px;
+            }
+
+            .hero_title {
+                width: 277.63px;
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 40px;
+                font-weight: 800;
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.health {
+    .health_wrapper {
+        display: flex;
+        gap: 83px;
+        justify-content: center;
+
+        .health_img {
+            width: 600px;
+            height: 600px;
+        }
+
+        .health_item {
+            .health_tex {
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 40px;
+                font-weight: 600;
+                margin-bottom: 9px;
+                margin-top: 125px;
+            }
+
+            .health_num {
+                color: $black_1;
+                font-family: $open_sans;
+                font-size: 25px;
+                font-weight: 700;
+                margin-bottom: 27px;
+            }
+
+            .health_suptitle {
+                width: 658px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 35px;
+            }
+
+            .health_btn_white {
+                width: 134px;
+                height: 80px;
+                color: $black_1;
+                font-family: $open_sans;
+                font-size: 20px;
+                font-weight: 700;
+                box-sizing: border-box;
+                border: 2px solid rgb(39, 76, 91);
+                border-radius: 16px;
+                background: $white;
+            }
+
+            .health_btn {
+                width: 213px;
+                height: 80px;
+                color: $white;
+                font-family: $roboto;
+                font-size: 20px;
+                font-weight: 700;
+                border-radius: 16px;
+                background-color: $black_1;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .botton {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 27px;
+
+        .bottons_btn {
+            margin-top: 72px;
+            width: 363px;
+            height: 80px;
+            color: $open_sans;
+            font-family: $open_sans;
+            font-size: 25px;
+            font-weight: 700;
+            border-radius: 16px;
+            background-color: $black_1;
+            border: none;
+        }
+
+        .bottons_bot {
+            margin-top: 72px;
+            width: 309px;
+            height: 80px;
+            color: $black_1;
+            font-family: $open_sans;
+            font-size: 25px;
+            font-weight: 700;
+            border-radius: 16px;
+            background-color: $light_blue_white;
+            border: none;
+        }
+    }
+
+    .bottons_suptitle {
+        width: 1137px;
+        color: $grey;
+        font-family: $open_sans;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+}

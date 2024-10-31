@@ -1,0 +1,98 @@
+.work {
+    width: 100%;
+    height: 1067px;
+    background-color: $light_grey;
+    margin-top: 150px;
+    padding-top: 87px;
+
+    .work_wrapper {
+        display: flex;
+        gap: 30px;
+
+        .work_item {
+            padding-top: 99px;
+
+            .work_text {
+                color: $light_green;
+                font-family: $yellowtail;
+                font-size: 36px;
+                font-weight: 400;
+                padding-bottom: 8px;
+            }
+
+            .work_title {
+                width: 702px;
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 50px;
+                font-weight: 800;
+                padding-bottom: 17px;
+            }
+
+            .work_suptitle {
+                width: 690px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                padding-bottom: 48px;
+            }
+
+            .work_card_1 {
+                display: flex;
+                gap: 46px;
+
+                .work_card_title {
+                    color: $black_1;
+                    font-family: $roboto;
+                    font-size: 25px;
+                    font-weight: 800;
+                    padding-bottom: 7px;
+                }
+
+                .work_card_suptitle {
+                    width: 444px;
+                    color: $grey;
+                    font-family: $open_sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    padding-bottom: 35px;
+                }
+            }
+
+            .work_card_2 {
+                display: flex;
+                gap: 46px;
+
+                .work_card_title {
+                    color: $black_1;
+                    font-family: $roboto;
+                    font-size: 25px;
+                    font-weight: 800;
+                    padding-bottom: 7px;
+                }
+
+                .work_card_suptitle {
+                    width: 444px;
+                    color: $grey;
+                    font-family: $open_sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+
+            .work_item_btn {
+                width: 220px;
+                height: 79px;
+                color: $white;
+                font-family: $roboto;
+                font-size: 20px;
+                font-weight: 700;
+                background-color: $black_1;
+                border-radius: 16px;
+                border: none;
+                margin-top: 48px;
+            }
+        }
+    }
+}

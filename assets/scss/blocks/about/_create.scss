@@ -1,0 +1,81 @@
+.creative {
+    .creative_item {
+        margin-top: 163px;
+        display: flex;
+        gap: 50px;
+
+        .creative_img {
+            width: 900px;
+            height: 700px;
+            object-fit: cover;
+        }
+
+        .creative_card {
+            .creative_text {
+                color: $light_green;
+                font-family: $yellowtail;
+                font-size: 36px;
+                font-weight: 400;
+                padding-bottom: 8px;
+            }
+
+            .creative_title {
+                width: 674px;
+                color: $black_1;
+                font-family: $roboto;
+                font-size: 50px;
+                font-weight: 800;
+                padding-bottom: 14px;
+            }
+
+            .creative_suptitle {
+                width: 671px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            .creative_suptitles {
+                width: 671px;
+                color: $grey;
+                font-family: $open_sans;
+                font-size: 18px;
+                font-weight: 400;
+                padding-top: 30px;
+                padding-bottom: 49px;
+            }
+
+            .tex {
+                display: flex;
+                gap: 65px;
+
+                .creative_car {
+                    display: flex;
+                    gap: 15px;
+
+                    .creative_car_text {
+                        width: 226px;
+                        color: $black_1;
+                        font-family: $roboto;
+                        font-size: 25px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .creative_btn {
+                width: 226px;
+                height: 80px;
+                color: $white;
+                font-family: $roboto;
+                font-size: 20px;
+                font-weight: 700;
+                border-radius: 16px;
+                border: none;
+                background-color: $black_1;
+                margin-top: 58px;
+            }
+        }
+    }
+}

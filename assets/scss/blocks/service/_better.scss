@@ -1,0 +1,89 @@
+.better {
+    .better_text {
+        color: $light_green;
+        font-family: $yellowtail;
+        font-size: 36px;
+        font-weight: 400;
+        margin-top: 202px;
+        margin-bottom: 6px;
+        text-align: center;
+    }
+
+    .better_title {
+        width: 482px;
+        text-align: center;
+        color: $black_1;
+        font-family: $roboto;
+        font-size: 50px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .service_wrap {
+        display: flex;
+        gap: 50px;
+
+        .better_items {
+            text-align: end;
+            margin-top: 108px;
+            .better_card {
+
+                .service_img {
+                    width: 42px;
+                    height: 42px;
+                }
+
+                .service_tex {
+                    color: $black_1;
+                    font-family: $roboto;
+                    font-size: 25px;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+
+                .services_suptitle {
+                    width: 396px;
+                    margin-bottom: 39px;
+                    color: $grey;
+                    font-family: $open_sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .service_img_bg {
+            width: 650px;
+            height: 900px;
+        }
+
+        .better_item {
+            margin-top: 108px;
+            .better_card {
+
+                .service_img {
+                    width: 42px;
+                    height: 42px;
+                }
+
+                .service_tex {
+                    color: $black_1;
+                    font-family: $roboto;
+                    font-size: 25px;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+
+                .services_suptitle {
+                    width: 396px;
+                    margin-bottom: 39px;
+                    color: $grey;
+                    font-family: $open_sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
